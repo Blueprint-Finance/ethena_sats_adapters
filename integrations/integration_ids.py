@@ -405,6 +405,9 @@ class IntegrationID(Enum):
         Token.USDE,
     )
 
+    CONCRETE_USDCE = ("concrete_usdce", "Concrete USDCE", Token.USDE)
+    CONCRETE_SUSDC = ("concrete_susdc", "Concrete sUSDC", Token.SUSDC)
+
     # agni
     AGNI = (
         "agni",

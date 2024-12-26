@@ -35,6 +35,9 @@ class SummaryColumn(Enum):
 
     CLAIMED_ENA_PTS_EXAMPLE = ("claimed_ena_example", SummaryColumnType.ETHENA_PTS)
 
+    CONCRETE_USDCE_SHARDS = ("concrete_usdce_pts", SummaryColumnType.ETHENA_PTS)
+    CONCRETE_SUSDC_SHARDS = ("concrete_susdc_pts", SummaryColumnType.ETHENA_PTS)
+
     BEEFY_CACHED_BALANCE_EXAMPLE = (
         "beefy_cached_balance_example",
         SummaryColumnType.ETHENA_PTS,
